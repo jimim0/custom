@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+/* 이용약관 */
+.box {
+ width: 440px;
+ margin: auto;
+}
+
+
+.arrow {
+    font-size: 35px;
+    margin: 0px 0px 50px 0px;
+}
+
+
+/* 다음 버튼 */
+.next>a {
+    display: block;
+    width: 440px;
+    background-color: rgb(188, 224, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+    line-height: 50px;
+    color: white;
+}
+
+
+.next>a:hover {
+    background-color: cornflowerblue;
+}
+
+
+/* 하단 아이콘 */
+.iconpage {
+    width: 500px;
+    font-size: 30px;
+    margin: auto;
+    border: 2px solid gainsboro;
+}
+
+
+.iconpage>a {
+    margin: 10px auto;
+    color: gray;
+}
+
+
+.nav-icon:hover,
+.nav-icon.active {
+    color: black !important;
+}

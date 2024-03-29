@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>membership</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/membership.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="./js/jquery-1.12.3.js"></script>
+    <script>
+      $( document ).ready( function() {
+        $( '.check-all' ).click( function() {
+          $( '.ab' ).prop( 'checked', this.checked );
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- 이용약관 시작 -->
+    <div class="box">
+      <div class="arrow">
+        <a href="./index.html"><i class="bi bi-chevron-left"></i></a>
+      </div>
+      <div class="py-4">
+        <h4 class="fw-bold">이용 약관에</h4>
+        <h4 class="fw-bold">동의해 주세요</h4>
+      </div>
+      <div>
+        <form class="form">
+          <p class="p-2"><input type="checkbox" name="all" class="check-all" id="box1"> <label for="box1">전체동의</label></p>
+          <hr>
+          <p class="p-2"><input type="checkbox" name="cb1" class="ab" id="box2"> <label for="box2">(필수) 만 14세 이상입니다.</label></p>
+          <p class="p-2"><input type="checkbox" name="cb2" class="ab" id="box3"> <label for="box3">(필수) 서비스 이용약관에 동의</label></p>
+          <p class="p-2"><input type="checkbox" name="cb3" class="ab" id="box4"> <label for="box4">(필수) 개인정보수집 및 이용동의</label></p>
+          <p class="p-2"><input type="checkbox" name="cb4" class="ab" id="box5"> <label for="box5">(선택) 개인정보 마케팅 활용 동의</label></p>
+          <p class="p-2"><input type="checkbox" name="cb4" class="ab" id="box6"> <label for="box6">(선택) 이벤트, 쿠폰, 특가 알림 메일 및 SMS 등 수신</label></p>
+          <!-- 다음 버튼 시작 -->
+          <p class="next text-center fw-bold">
+            <a href="#">다음</a>
+          </p>
+          <!-- 다음 버튼 끝 -->
+        </form>
+      </div>
+    </div>
+    <!-- 이용약관 끝 -->
+    
+    
+    <!-- 하단 아이콘 시작 -->
+    <div class="iconpage fixed-bottom d-flex rounded-top-4 justify-content-between">
+      <a class="nav-icon" href="index.html"><i class="bi bi-house"></i></a>
+      <a class="nav-icon" href="#"><i class="bi bi-search"></i></a>
+      <a class="nav-icon" href="#"><i class="bi bi-cart4"></i></a>
+      <a class="nav-icon" href="#"><i class="bi bi-person-fill"></i></a>
+    </div>
+    <!-- 하단 아이콘 끝 -->
+
+    
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>
+
+

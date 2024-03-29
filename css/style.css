@@ -1,0 +1,212 @@
+@charset 'utf-8';
+
+/* 네비게이션 */
+.nav-icon {
+    margin: 0px 15px 0px;
+}
+
+/* 메뉴 */
+.menu {
+    margin-top: 100px;
+    /* vertical-align: top; */
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.menu>li>a {
+    font-size: 1.3em;
+    
+}
+
+@media (max-width:576px){
+    .menu>li>a {
+        font-size: 15px;
+    }
+}
+
+.nav-link {
+    color: #7b7992;
+}
+  
+.nav-link:hover {
+    color: black;
+}
+
+
+/* 배너영역 */
+.banner {
+    position: relative;
+}
+
+.banner>div {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.bannerpoint1 {
+    color: blue;
+}
+
+.bannerpoint2 {
+    color: red;
+}
+
+
+/* 세일 상품 */
+a {
+    color:inherit;
+    text-decoration:none;
+  }
+  
+.section-slider {
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.section-slider__slider-wrap {
+width: 100%;
+height: 70%;
+padding:50px 0;
+background-color:white;
+}
+
+@media (min-width:992px){
+.section-slider__slider-wrap {
+    width: 40%;
+}
+.article-slider__slide {
+    display:flex;
+    }
+    
+    .article-slider__text-box {
+    display:flex;
+    }
+}
+
+@media (max-width:768px){
+.section-slider__slider-wrap {
+    width: 80%;
+}
+}
+
+.article-slider__slide {
+padding: 0px 0px 20px 40px;
+}
+
+.article-slider__text-box {
+flex-direction:column;
+align-items:flex-start;
+padding: 40px 40px;
+}
+
+.article-slider__text-box > * {
+margin-top:20px;
+font-style:italic;
+}
+
+.acticle-slider__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d0925;
+}
+
+.article-slider__text {
+    color: #4e4a67;
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+.article-slider__slide .article-slider__text-box > * {
+opacity:0;
+}
+
+.swiper-slide-active .article-slider__text-box > * {
+opacity:1;
+}
+
+.article-slider {
+position:relative;
+}
+
+.bestsale {
+color: red;
+font-size: 25px;
+}
+
+.bestsale1 {
+font-size: 20px;
+}
+
+.timer {
+width: 200px;
+background-color: dodgerblue;
+color: white;
+font-size: 18px;
+}
+
+.salebutton {
+margin: 0px 0px 100px;
+}
+
+.product {
+    font-size: 25px;
+    color: black;
+}
+
+.product:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+
+/* 베스트 상품 */
+.my-slider-box-2__prod-name {
+    position: absolute;
+    top: 10;
+    left: 5;
+    background-color: deepskyblue;
+    font-weight:bold;
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    z-index: 10;
+}
+
+.discountprice {
+    position: relative;
+}
+
+.discount {
+    color: red;
+    position: absolute;
+    font-size: 15px;
+    left: -35px;
+}
+
+.best {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bestbutton {
+    margin: 100px 0px 200px;
+}
+
+.bestproduct {
+    font-size: 25px;
+    color: black;
+ }
+
+.bestproduct:hover {
+   background-color: white;
+   color: darkblue;
+}
+
+/* 풋터 영역 */
+.icon {
+    font-size: 35px;
+}
